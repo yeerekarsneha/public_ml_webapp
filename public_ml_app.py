@@ -338,13 +338,13 @@ if st.session_state['page'] == 'Lung Disease Prediction':
             1: 'Chronic Obstructive Pulmonary Disease (COPD)',
             2: 'Lung Cancer',
             3: 'Pneumonia',
-            4:'Pulmonary_Embolism'
-            5:'Asthma'
-            6:'Bronchitis'
-            7:'Emphysema'
-            8:'Pulmonary_Fibrosis'
-            9:'Pleural_Effusion'
-            10:'Tuberculosis'
+            4:'Pulmonary_Embolism',
+            5:'Asthma',
+            6:'Bronchitis',
+            7:'Emphysema',
+            8:'Pulmonary_Fibrosis',
+            9:'Pleural_Effusion',
+            10:'Tuberculosis'.
             # Add other mappings as per your model
         }
 
