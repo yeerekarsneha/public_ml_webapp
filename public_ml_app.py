@@ -344,8 +344,7 @@ if st.session_state['page'] == 'Lung Disease Prediction':
             7:'Emphysema',
             8:'Pulmonary_Fibrosis',
             9:'Pleural_Effusion',
-            10:'Tuberculosis'.
-            # Add other mappings as per your model
+            10:'Tuberculosis'
         }
 
         predicted_disease = diseases.get(lung_prediction[0], 'Unknown Disease')
