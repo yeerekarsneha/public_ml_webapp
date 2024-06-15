@@ -395,7 +395,7 @@ if st.session_state.page == 'COVID-19 Prediction':
         loss_of_taste_smell = st.slider('Loss of Taste or Smell')
 
     with col2:
-    difficulty_breathing = st.slider('Difficulty Breathing')
+        difficulty_breathing = st.slider('Difficulty Breathing')
    
     covid_diagnosis = ''
     if st.button('COVID-19 Test Result'):
